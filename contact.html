@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Sahan Weerasinghe | Noventra</title>
+    <meta name="description" content="Get in touch with Sahan Weerasinghe, Founder & CEO of Noventra. Expert fullstack developer based in Sri Lanka providing international IT solutions.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="logo.png.png" alt="Noventra Logo">
+                <span class="logo-text">Noventra</span>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-cta">
+                <a href="contact.html" class="btn btn-primary">Start Project</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header contact-hero" id="main-content">
+        <div class="communication-icons">
+            <div class="comm-icon icon-1">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="comm-icon icon-2">
+                <i class="fas fa-phone"></i>
+            </div>
+            <div class="comm-icon icon-3">
+                <i class="fas fa-comments"></i>
+            </div>
+            <div class="comm-icon icon-4">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+        </div>
+
+        <div class="connection-lines">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </div>
+        <div class="container">
+            <div class="header-content" data-aos="fade-up">
+                <div class="header-badge">
+                    <i class="fas fa-envelope"></i>
+                    <span>Get In Touch</span>
+                </div>
+                <h1>Let's Start a <span class="gradient-text">Conversation</span></h1>
+                <p>Ready to bring your ideas to life? Get in touch with us and let's discuss how we can help transform your vision into reality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-grid">
+                <a href="tel:+94772117828" class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Me</h3>
+                    <p>+94 772 117 828</p>
+                    <span>Available 24/7 for urgent matters</span>
+                </a>
+                <a href="mailto:noventrawebsolutions@gmail.com" class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Me</h3>
+                    <p>noventrawebsolutions@gmail.com</p>
+                    <span>I'll respond within 2 hours</span>
+                </a>
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location</h3>
+                    <p>Sri Lanka</p>
+                    <span>Serving clients worldwide</span>
+                </div>
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Business Hours</h3>
+                    <p>24/7 Support</p>
+                    <span>Always available for my clients</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-form-container" data-aos="fade-right">
+                    <h2>Send Me a <span class="gradient-text">Message</span></h2>
+                    <p>Tell me about your project and I'll get back to you with a detailed proposal and timeline.</p>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Required *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="erp-crm">ERP & CRM Systems</option>
+                                <option value="android-solutions">Android Solutions</option>
+                                <option value="graphics-design">Graphics Design</option>
+                                <option value="consultation">Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="budget">Project Budget</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-5k">Under Rs.25,000</option>
+                                <option value="5k-10k">Rs.25,000 - Rs.50,000</option>
+                                <option value="10k-25k">Rs.50,000 - Rs.100,000</option>
+                                <option value="25k-50k">Rs.100,000 - Rs.200,000</option>
+                                <option value="over-50k">Over Rs.200,000</option>
+                                <option value="discuss">Let's discuss</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select timeline</option>
+                                <option value="asap">ASAP</option>
+                                <option value="1-2-weeks">1-2 weeks</option>
+                                <option value="1-month">1 month</option>
+                                <option value="2-3-months">2-3 months</option>
+                                <option value="3-6-months">3-6 months</option>
+                                <option value="flexible">Flexible</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Describe your project requirements, goals, and any specific features you need..." required></textarea>
+                        </div>
+                        <div class="form-group full-width">
+                            <button type="submit" class="btn btn-primary btn-glow">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-sidebar" data-aos="fade-left">
+                    <div class="sidebar-content">
+                        <h3>Why Work With Me?</h3>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-check"></i> Fullstack development expertise</li>
+                            <li><i class="fas fa-check"></i> 2+ successful projects delivered</li>
+                            <li><i class="fas fa-check"></i> 24/7 support and maintenance</li>
+                            <li><i class="fas fa-check"></i> Competitive pricing</li>
+                            <li><i class="fas fa-check"></i> Fast project delivery</li>
+                            <li><i class="fas fa-check"></i> Global client support</li>
+                        </ul>
+                        <div class="social-contact">
+                            <h4>Connect With Me</h4>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Me</h2>
+            <div class="map-container">
+                <div class="map-placeholder" data-aos="zoom-in">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Based in Sri Lanka</h3>
+                    <p>Serving clients worldwide through remote collaboration</p>
+                    <p>Available for international projects and consultations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+                <p class="section-subtitle">Common questions about working with me</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>What is your typical project timeline?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Project timelines vary depending on complexity. Simple websites take 2-4 weeks, while complex applications can take 3-6 months. I provide detailed timelines during the planning phase and always deliver on schedule.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>Do you provide ongoing support?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, I offer various support packages including 24/7 monitoring, regular updates, security patches, and technical support to ensure your solution runs smoothly and stays up-to-date.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>What technologies do you use?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I use modern, industry-standard technologies including React, Vue.js, Node.js, PHP, Python, and various databases. I choose the best technology stack for each project based on requirements and scalability needs.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq-question">
+                        <h3>Can you work with existing systems?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! I can integrate with your existing systems, APIs, and databases. I'll analyze your current setup and recommend the best integration approach to ensure seamless operation.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="faq-question">
+                        <h3>Do you provide hosting services?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, I offer hosting solutions with reliable cloud infrastructure, regular backups, SSL certificates, and performance optimization to ensure your application runs smoothly and securely.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="faq-question">
+                        <h3>How do you handle communication?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I maintain regular communication through email, phone calls, and video meetings. I provide weekly progress updates and am always available for urgent matters. Clear communication is key to project success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's discuss how I can help transform your business with innovative technology solutions.</p>
+                <div class="cta-buttons">
+                    <a href="tel:+94772117828" class="btn btn-primary btn-glow">
+                        <span>Call Now</span>
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:noventrawebsolutions@gmail.com" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email Me</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.png.png" alt="Noventra Logo">
+                        <span>Noventra</span>
+                    </div>
+                    <p>Revolutionary IT solutions that transform businesses and drive innovation across the globe.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">ERP & CRM Systems</a></li>
+                        <li><a href="services.html">Android Solutions</a></li>
+                        <li><a href="services.html">Graphics Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+94 772 117 828</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>noventrawebsolutions@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Sri Lanka</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Noventra. All rights reserved. | Crafted with ❤️ in Sri Lanka</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

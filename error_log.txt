@@ -1,0 +1,12 @@
+[2025-07-06 10:57:57] Mail function failed, trying alternative method
+[2025-07-06 10:57:57] Email saved to pending_emails.txt for manual processing
+[2025-07-06 10:57:58] Mail function failed, trying alternative method
+[2025-07-06 10:57:58] Email saved to pending_emails.txt for manual processing
+[2025-07-06 11:01:39] Mail function failed, trying alternative method
+[2025-07-06 11:01:39] Email saved to pending_emails.txt for manual processing
+[2025-07-06 11:01:40] Mail function failed, trying alternative method
+[2025-07-06 11:01:40] Email saved to pending_emails.txt for manual processing
+[2025-07-06 11:07:27] Email saved to pending_emails.txt for manual processing
+[2025-07-06 11:07:27] Email saved to pending_emails.txt for manual processing
+[2025-07-06 11:08:41] Email saved to pending_emails.txt for manual processing
+[2025-07-06 11:08:41] Email saved to pending_emails.txt for manual processing
